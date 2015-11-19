@@ -1,5 +1,4 @@
 # Firejail profile for Mozilla Thunderbird (Icedove in Debian)
-noblacklist ${HOME}/.gnupg
 include /etc/firejail/disable-mgmt.inc
 include /etc/firejail/disable-secret.inc
 include /etc/firejail/disable-devel.inc

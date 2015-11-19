@@ -10,7 +10,11 @@ include /etc/firejail/disable-common.inc
 
 netfilter
 whitelist ~/Downloads
-whitelist ~/Загрузки
 whitelist ~/.config/chromium
-include /etc/firejail/whitelist-common.inc
 
+# common
+whitelist ~/.fonts
+whitelist ~/.fonts.d
+whitelist ~/.fontconfig
+whitelist ~/.fonts.conf
+whitelist ~/.fonts.conf.d
